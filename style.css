@@ -41,6 +41,8 @@ p {
 }
 
 .section {
+    align-content: center;
+    text-align: center;
     border: solid 2px;
 	border-color: rgba(0, 247, 255, 0.521);
 	background-color: rgba(255, 255, 255, 0.808);
@@ -185,18 +187,11 @@ table, th, td {
     color: white;
 }
 
-li {
-    margin-bottom: 15px;
-    font-weight: bold;
-}
-
-iframe, audio {
-    display: block;
-    margin: 0 auto;
-    border: 3px solid #3fb6b2;
-}
 hr {
     border: 0;
     height: 1px;
     background: #f36f48;
+}
+ul{
+    font-size: 16px;
 }
