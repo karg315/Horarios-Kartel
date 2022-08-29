@@ -4,13 +4,13 @@ html {
 }
 body {
     font-family: 'Handlee', cursive;
-    font-size: 13pt;
+    font-size: 15pt;
     background-image: linear-gradient(to right, rgba(170,120,200,0.7), rgba(20,110,210,0.6));
     padding: 10px;
     margin: 0;
 }
 h1 {
-    font-size: 18pt;
+    font-size: 19pt;
     text-align: center;
     padding: 18px 0 18px 0;
     margin: 0 0 10px 0;
@@ -55,7 +55,7 @@ p {
 
 table {
     width: 100%;
-    font-size: 14pt;
+    font-size: 15pt;
     margin: auto;
 }
 table, th, td {
@@ -191,10 +191,10 @@ hr {
 }
 
 ul{
-    font-size: 16px;
+    font-size: 20px;
 }
 
 h2{
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
 }
