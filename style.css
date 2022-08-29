@@ -39,10 +39,10 @@ p {
     padding: 0;
     margin: 0;
 }
-
 .section {
     align-content: center;
     text-align: center;
+    align-items: center;
     border: solid 2px;
 	border-color: rgba(0, 247, 255, 0.521);
 	background-color: rgba(255, 255, 255, 0.808);
@@ -186,7 +186,6 @@ table, th, td {
     font-weight: bold;
     color: white;
 }
-
 hr {
     border: 0;
     height: 1px;
@@ -194,4 +193,8 @@ hr {
 }
 ul{
     font-size: 16px;
+}
+h2{
+    font-size: 20px;
+    font-weight: bold;
 }
