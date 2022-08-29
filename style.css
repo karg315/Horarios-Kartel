@@ -16,9 +16,9 @@ h1 {
     margin: 0 0 10px 0;
 }
 #titulo-makein {
-    border: 3px dashed #ff5e00;
+    border: 3px dashed #ff8800;
     padding: 10px;
-    color: #ff5e00;
+    color: #ff8800;
 }
 #titulo-rayo{
     border: 3px dashed #0011f8;
@@ -31,9 +31,14 @@ h1 {
     color: #f80000;
 }
 #titulo-stanli{
-    border: 3px dashed #005323;
+    border: 3px dashed #530053;
     padding: 10px;
-    color: #005323;
+    color: #530053;
+}
+#titulo-santy{
+    border: 3px dashed #005317;
+    padding: 10px;
+    color: #005317;
 }
 #notas{
     padding-left: 3%;
@@ -189,6 +194,39 @@ table, th, td {
     font-weight: bold;
     color: white;
 }
+
+/*Materias Santy*/
+.expresion{
+    background-color: #007728;
+    font-weight: bold;
+    color: white;   
+}
+.fotograficas{
+    background-color: #002877;
+    font-weight: bold;
+    color: white; 
+}
+.emprendimiento{
+    background-color: #6b7700;
+    font-weight: bold;
+    color: white; 
+}
+.diseño{
+    background-color: #770000;
+    font-weight: bold;
+    color: white; 
+}
+.animacion{
+    background-color: #3c0077;
+    font-weight: bold;
+    color: white; 
+}
+.dibujo{
+    background-color: #930067;
+    font-weight: bold;
+    color: white; 
+}
+
 hr {
     border: 0;
     height: 1px;
