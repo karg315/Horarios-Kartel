@@ -67,6 +67,7 @@ table {
     width: 100%;
     font-size: 15pt;
     margin: auto;
+    margin-top: 2em;
 }
 table, th, td {
     border: 2px solid #00000025;
