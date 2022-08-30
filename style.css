@@ -226,6 +226,19 @@ table, th, td {
     font-weight: bold;
     color: white; 
 }
+.No{
+    background-color: #930000;
+    font-weight: bold;
+    color: white; 
+    font-size: 25px;
+}
+
+.Si{
+    background-color: #009300;
+    font-weight: bold;
+    color: white; 
+    font-size: 25px;
+}
 
 hr {
     border: 0;
