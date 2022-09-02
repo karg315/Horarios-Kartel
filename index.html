@@ -4,584 +4,667 @@
         <title>Horarios Kartel</title>
         <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
         <link href="style.css" rel="stylesheet" type="text/css">
+        <script defer src="app.js" ></script>
     </head>
     
     <body>
         <h1> <span style="font-size: 2em; border: 3px dashed #000000; padding:8px;">Horarios del Kartel</h1> <br>
-        <!-- Horario de Makein -->
-        <div class="section" id="horario makein">
-            <h1><span id="titulo-makein">Horario de Makein</span></h1>
-            <table>
-                <tr>
-                    <th>Hora \ Día</th>
-                    <th>Lun</th>
-                    <th>Mar</th>
-                    <th>Mie</th>
-                    <th>Jue</th>
-                    <th>Vie</th>
-                </tr>
-                <tr>
-                    <td>7 - 8 m</td>
-                    <td class="fem" rowspan="3">Física, Electricidad y Magnetismo</td>
-                    <td></td>
-                    <td class="fem" rowspan="2">Física, Electricidad y Magnetismo</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>8 - 9am</td>
-                    <!-- fem -->
-                    <td></td>
-                    <!-- fem -->
-                    <td></td>
-                    <td class="core" rowspan="2">Core I</td>
-                </tr>
-                <tr>
-                    <td>9 - 10am</td>
-                    <!-- fem -->
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <!-- core -->
-                </tr>
-                <tr>
-                    <td>10 - 11am</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td class="digital" rowspan="3">Lógica Digital</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>11am - 12m</td>
-                    <td class="vectorial" rowspan="2">Cálculo Vectorial</td>
-                    <td></td>
-                    <td class="vectorial" rowspan="2">Cálculo Vectorial</td>
-                    <!-- digital -->
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>12m - 1pm</td>
-                    <!-- vectorial -->
-                    <td></td>
-                    <!-- vectorial -->
-                    <!-- digital -->
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>1 - 2pm</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>2 - 3pm</td>
-                    <td class="ingles" rowspan="2">Inglés 6</td>
-                    <td></td>
-                    <td class="ingles" rowspan="2">Inglés 6</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>3 - 4pm</td>
-                    <!-- ingles -->
-                    <td></td>
-                    <!-- ingles -->
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>4 - 5pm</td>
-                    <td></td>
-                    <td class="programacion" rowspan="3">Programación de Nuevas Tecnologías</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>5 - 6pm</td>
-                    <td></td>
-                    <!-- programacion -->
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                    <tr>
-                    <td>6 - 7pm</td>
-                    <td></td>
-                    <!-- programacion -->
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </table>
-        </div>
-        <!-- Fin del horario de makein -->
         
-
-        <div class="section" id="horario rayo">
-            <h1><span id="titulo-rayo">Horario de Rayo</span></h1>
-            <table>
-                <tr>
-                    <th>Hora \ Día</th>
-                    <th>Lun</th>
-                    <th>Mar</th>
-                    <th>Mie</th>
-                    <th>Jue</th>
-                    <th>Vie</th>
-                    <th>Sáb</th>
-                </tr>
-                <tr>
-                    <td>8 - 9am</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td class="fem" rowspan="3">Física, Electricidad y Magnetismo</td>
-                    <td class="anatomia" rowspan="3">Anatomía</td>
-                    <td class="biomateriales" rowspan="2">Biomateriales</td>
-                </tr>
-                <tr>
-                    <td>9 - 10am</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <!-- fem -->
-                    <!-- anatomia--> 
-                    <!-- biomateriales -->
-                </tr>
-                <tr>
-                    <td>10 - 11am</td>
-                    <td></td>
-                    <td class="anatomia" rowspan="2">Anatomía</td>
-                    <td class="circuitos" rowspan="2">LAB. Circuitos Electrónicos</td>
-                    <!-- fem -->
-                    <!-- anatomia -->
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>11am - 12m</td>
-                    <td></td>
-                    <!-- anatomia -->
-                    <!-- lab circuitos -->
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>12m - 1pm</td>
-                    <td></td>
-                    <td></td>
-                    <td class="fem" rowspan="2">LAB. Física, Electricidad y Magnetismo</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>1 - 2pm</td>
-                    <td class="circuitos" rowspan="3">Circuitos Electrónicos</td>
-                    <td></td>
-                    <!-- fem -->
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>2 - 3pm</td>
-                    <!-- circuitos -->
-                    <td></td>
-                    <td ></td>
-                    <td></td>
-                    <td class="biomateriales" rowspan="2">Biomateriales</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>3 - 4pm</td>
-                    <!-- circuitos -->
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <!-- biomateriales -->
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>4 - 5pm</td>
-                    <td class="integral" rowspan="2">Cálculo Integral</td>
-                    <td></td>
-                    <td></td>
-                    <td class="integral" rowspan="2">Cálculo Integral</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>5 - 6pm</td>
-                    <!-- integral -->
-                    <td></td>
-                    <td></td>
-                    <!-- integral -->
-                    <td></td>
-                    <td></td>
-                </tr>
-            </table>
-        </div>
-        <!-- Fin del horario de raio-->
-
-
-        <!-- Horario de Diego -->
-        <div class="section" id="horario diego">
-            <h1><span id="titulo-diego">Horario de Diego</span></h1>
-            <table>
-                <tr>
-                    <th>Hora \ Día</th>
-                    <th>Lun</th>
-                    <th>Mar</th>
-                    <th>Mie</th>
-                    <th>Jue</th>
-                    <th>Vie</th>
-                </tr>
-                <tr>
-                    <td>7 - 8 m</td>
-                    <td class="materiales" rowspan="2">Mecánica de Materiales</td>
-                    <td class="core" rowspan="2">Core 3</td>
-                    <td></td>
-                    <td class="materiales" rowspan="2">Mecánica de Materiales</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>8 - 9am</td>
-                    <!-- materiales -->
-                    <!-- core -->
-                    <td></td>
-                    <!-- materiales -->
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>9 - 10am</td>
-                    <td></td>
-                    <td class="diferenciales" rowspan="2">Ecuaciones Diferenciales</td>
-                    <td></td>             
-                    <td></td>
-                    <td class="diferenciales" rowspan="2">Ecuaciones Diferenciales</td>
-                </tr>
-                <tr>
-                    <td>10 - 11am</td>
-                    <td class="ingles" rowspan="2">Inglés 6</td>
-                    <!-- diferenciales -->
-                    <td></td>
-                    <td></td>
-                    <!-- diferenciales -->
-                </tr>
-                <tr>
-                    <td>11am - 12m</td>
-                    <!-- inglés -->
-                    <td></td>
-                    <td class="ingles" rowspan="2">Inglés 6</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>12m - 1pm</td>
-                    <td></td>
-                    <td></td>
-                    <!-- ingles -->
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>1 - 2pm</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>2 - 3pm</td>
-                    <td class="fluidos" rowspan="2">Mecánica de Fluidos</td>
-                    <td></td>
-                    <td></td>
-                    <td class="fluidos" rowspan="2">Mecánica de Fluidos</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>3 - 4pm</td>
-                    <!-- fluidos -->
-                    <td></td>
-                    <td></td>
-                    <!-- fluidos -->
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>4 - 5pm</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td class="marketing" rowspan="3">Neurociencias Aplicadas al Marketing</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>5 - 6pm</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <!-- marketing -->
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>6 - 7pm</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <!-- marketing -->
-                    <td></td>
-                </tr>
-            </table>
-        </div>
-        <!-- Fin del horario de diego -->
-    
-        <!-- Horario de stanli -->
-        <div class="section" id="horario stanli">
-            <h1><span id="titulo-stanli">Horario de Stanli</span></h1>
-            <table>
-                <tr>
-                    <th>Hora \ Día</th>
-                    <th>Lun</th>
-                    <th>Mar</th>
-                    <th>Mie</th>
-                    <th>Jue</th>
-                </tr>
-                <tr>
-                    <td>7 - 8 m</td>
-                    <td></td>
-                    <td></td>
-                    <td class="creacion" rowspan="2">Investigación y creación</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>8 - 9am</td>
-                    <td></td>
-                    <td></td>
-                    <!-- creacion -->
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>9 - 10am</td>
-                    <td class="teoria" rowspan="2">Teoría</td>
-                    <td class="gramatica" rowspan="2">Gramática</td>
-                    <td></td>             
-                    <td class="gramatica" rowspan="2">Gramática</td>
-                </tr>
-                <tr>
-                    <td>10 - 11am</td>
-                    <!-- teoria -->
-                    <!-- gramatica -->
-                    <td></td>
-                    <!-- gramatica -->
-                </tr>
-                <tr>
-                    <td>11am - 12m</td>
-                    <td class="teclado" rowspan="2">Teclado</td>
-                    <td class="guitarra">Guitarra</td>
-                    <td class="historia" rowspan="2">Historia de la Música</td>
-                    <td class="lenguaje" rowspan="2">Mundo y Lenguaje</td>
-                </tr>
-                <tr>
-                    <td>12m - 1pm</td>
-                    <!-- teclado -->
-                    <td></td>
-                    <!-- ingles -->
-                    <!-- lenguaje -->
-                </tr>
-                <tr>
-                    <td>1 - 2pm</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>2 - 3pm</td>
-                    <td></td>
-                    <td class="canciones" rowspan="2">Música y canciones</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>3 - 4pm</td>
-                    <td></td>
-                    <!-- canciones -->
-                    <td></td>
-                    <td></td>
-                </tr>
-            </table>
-        </div>
-        <!-- Fin del horario de stanli -->
-
-         <!-- Horario de Santy -->
-         <div class="section" id="horario santy">
-            <h1><span id="titulo-santy">Horario de Santy</span></h1>
-            <table>
-                <tr>
-                    <th>Hora \ Día</th>
-                    <th>Lun</th>
-                    <th>Mar</th>
-                    <th>Mie</th>
-                    <th>Jue</th>
-                    <th>Vie</th>
-                </tr>
-                <tr>
-                    <td>8 - 9am</td>
-                    <td></td>
-                    <td></td>
-                    <td class="expresion" rowspan="2">Técnicas de Expresión</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>9 - 10am</td>
-                    <td></td>
-                    <td></td>
-                    <!-- expresion -->             
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>10 - 11am</td>
-                    <td></td>
-                    <td></td>
-                    <td class="fotograficas" rowspan="2">Técnicas Fotográficas</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>11am - 12m</td>
-                    <td></td>
-                    <td></td>
-                    <!-- fotograficas -->
-                    <td></td>
-                    <td class="emprendimiento" rowspan="2">Cultura del Emprendimiento</td>
-                </tr>
-                <tr>
-                    <td>12m - 1pm</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <!-- emprendimiento -->
-                </tr>
-                <tr>
-                    <td>1 - 2pm</td>
-                    <td></td>
-                    <td class="diseño" rowspan="4">Diseño Básico</td>
-                    <td></td>
-                    <td class="animacion" rowspan="4">Fundamentos de Animación</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>2 - 3pm</td>
-                    <td class="dibujo" rowspan="3">Dibujo Básico</td>
-                    <!-- diseño -->
-                    <td></td>
-                    <!-- animacion -->
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>3 - 4pm</td>
-                    <!-- dibujo -->
-                    <!-- diseño -->
-                    <td></td>
-                    <!-- animacion -->
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>4 - 5pm</td>
-                    <!-- dibujo -->
-                    <!-- diseño -->
-                    <td></td>
-                    <!-- animacion -->
-                    <td></td>
-                </tr>
-            </table>
-        </div>
-        <!-- Fin del horario de santy -->
-
-
-        <!-- Horario de matriz libre -->
-        <div class="section" id="horario libre">
-            <h1><span id="titulo-libre">Horario "Libre"</span></h1>
-            <h3 style="font-weight: normal; padding-left: 50px;">Luego de una larga investigación, este es el resultado:</h3>
-            <table>
-                <tr>
-                    <th>Hora \ Día</th>
-                    <th>Lun</th>
-                    <th>Mar</th>
-                    <th>Mie</th>
-                    <th>Jue</th>
-                    <th>Vie</th>
-                </tr>
-                <tr>
-                    <td>1 - 2pm</td>
-                    <td class="No" rowspan="6">No xd</td>
-                    <td class="No" rowspan="6">No xd</td>
-                    <td class="No" rowspan="4">No xd</td>
-                    <td class="No" rowspan="6">No xd</td>
-                    <td class="Si">Si ✔</td>
-                </tr>
-                <tr>
-                    <td>2 - 3pm</td>
-                    <!-- No xd -->
-                    <!-- No xd -->
-                    <!-- No xd -->
-                    <!-- No xd -->
-                    <td class="No" rowspan="2">No xd</td>
-                </tr>
-                <tr>
-                    <td>3 - 4pm</td>
-                    <!-- No xd -->
-                    <!-- No xd -->
-                    <!-- No xd -->
-                    <!-- No xd -->
-                    <!-- No xd -->
-                </tr>
-                <tr>
-                    <td>4 - 5pm</td>
-                    <!-- No xd -->
-                    <!-- No xd -->
-                    <!-- No xd -->
-                    <!-- No xd -->
-                    <td class="Si" rowspan="3">Si ✔</td>
-                </tr>
-                <tr>
-                    <td>5 - 6pm</td>
-                    <!-- No xd -->
-                    <!-- No xd -->
-                    <td class="Si" rowspan="2">Si ✔</td>
-                    <!-- No xd -->
-                    <!-- Si xd -->
-                </tr>
-                    <tr>
-                    <td>6 - 7pm</td>
-                    <!-- No xd -->
-                    <!-- No xd -->
-                    <!-- Si xd -->
-                    <!-- No xd -->
-                    <!-- Si xd -->
-                </tr>
-            </table>
-        </div>
-        <!-- Fin del horario matriz libre -->
         
-
-
-        <div class="section" id="notas">
-            <h2>Notas:</h2>
-            <ul>
-                <li>Ayala tiene clase de 7am a 1pm de Lunes a Viernes, "pueden surgir cosas por la tarde"</li>
-                <li>Santy no puede los fines de semana :v</li>
+        <div class="contenedor">
+            <ul class="ul">
+                <li class="li activo">Miembros del Kartel</li>
+                <li class="li">Personas asociadas al Kartel</li>
             </ul>
-            <p><span>Vr. 1.1.5 | Kevin "Alejo315" Rodriguez</span></p>
-        </div>
 
+            <div class="subcontenedor">
+                <!-- Bloque de los miembros del Kartel -->
+                <div class="bloque activo">
+                    <!-- Horario de Makein -->
+                    <div class="section" id="horario makein">
+                        <h1><span id="titulo-makein">Horario de Makein</span></h1>
+                        <table>
+                            <tr>
+                                <th>Hora \ Día</th>
+                                <th>Lun</th>
+                                <th>Mar</th>
+                                <th>Mie</th>
+                                <th>Jue</th>
+                                <th>Vie</th>
+                            </tr>
+                            <tr>
+                                <td>7 - 8 m</td>
+                                <td class="fem" rowspan="3">Física, Electricidad y Magnetismo</td>
+                                <td></td>
+                                <td class="fem" rowspan="2">Física, Electricidad y Magnetismo</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>8 - 9am</td>
+                                <!-- fem -->
+                                <td></td>
+                                <!-- fem -->
+                                <td></td>
+                                <td class="core" rowspan="2">Core I</td>
+                            </tr>
+                            <tr>
+                                <td>9 - 10am</td>
+                                <!-- fem -->
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <!-- core -->
+                            </tr>
+                            <tr>
+                                <td>10 - 11am</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td class="digital" rowspan="3">Lógica Digital</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>11am - 12m</td>
+                                <td class="vectorial" rowspan="2">Cálculo Vectorial</td>
+                                <td></td>
+                                <td class="vectorial" rowspan="2">Cálculo Vectorial</td>
+                                <!-- digital -->
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>12m - 1pm</td>
+                                <!-- vectorial -->
+                                <td></td>
+                                <!-- vectorial -->
+                                <!-- digital -->
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>1 - 2pm</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>2 - 3pm</td>
+                                <td class="ingles" rowspan="2">Inglés 6</td>
+                                <td></td>
+                                <td class="ingles" rowspan="2">Inglés 6</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>3 - 4pm</td>
+                                <!-- ingles -->
+                                <td></td>
+                                <!-- ingles -->
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>4 - 5pm</td>
+                                <td></td>
+                                <td class="programacion" rowspan="3">Programación de Nuevas Tecnologías</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>5 - 6pm</td>
+                                <td></td>
+                                <!-- programacion -->
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                                <tr>
+                                <td>6 - 7pm</td>
+                                <td></td>
+                                <!-- programacion -->
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <!-- Fin del horario de makein -->
+                    
+                    <!-- Horario de rayo -->
+                    <div class="section" id="horario rayo">
+                        <h1><span id="titulo-rayo">Horario de Rayo</span></h1>
+                        <table>
+                            <tr>
+                                <th>Hora \ Día</th>
+                                <th>Lun</th>
+                                <th>Mar</th>
+                                <th>Mie</th>
+                                <th>Jue</th>
+                                <th>Vie</th>
+                                <th>Sáb</th>
+                            </tr>
+                            <tr>
+                                <td>8 - 9am</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td class="fem" rowspan="3">Física, Electricidad y Magnetismo</td>
+                                <td class="anatomia" rowspan="3">Anatomía</td>
+                                <td class="biomateriales" rowspan="2">Biomateriales</td>
+                            </tr>
+                            <tr>
+                                <td>9 - 10am</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <!-- fem -->
+                                <!-- anatomia--> 
+                                <!-- biomateriales -->
+                            </tr>
+                            <tr>
+                                <td>10 - 11am</td>
+                                <td></td>
+                                <td class="anatomia" rowspan="2">Anatomía</td>
+                                <td class="circuitos" rowspan="2">LAB. Circuitos Electrónicos</td>
+                                <!-- fem -->
+                                <!-- anatomia -->
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>11am - 12m</td>
+                                <td></td>
+                                <!-- anatomia -->
+                                <!-- lab circuitos -->
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>12m - 1pm</td>
+                                <td></td>
+                                <td></td>
+                                <td class="fem" rowspan="2">LAB. Física, Electricidad y Magnetismo</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>1 - 2pm</td>
+                                <td class="circuitos" rowspan="3">Circuitos Electrónicos</td>
+                                <td></td>
+                                <!-- fem -->
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>2 - 3pm</td>
+                                <!-- circuitos -->
+                                <td></td>
+                                <td ></td>
+                                <td></td>
+                                <td class="biomateriales" rowspan="2">Biomateriales</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>3 - 4pm</td>
+                                <!-- circuitos -->
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <!-- biomateriales -->
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>4 - 5pm</td>
+                                <td class="integral" rowspan="2">Cálculo Integral</td>
+                                <td></td>
+                                <td></td>
+                                <td class="integral" rowspan="2">Cálculo Integral</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>5 - 6pm</td>
+                                <!-- integral -->
+                                <td></td>
+                                <td></td>
+                                <!-- integral -->
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <!-- Fin del horario de rayo-->
+
+
+                    <!-- Horario de Diego -->
+                    <div class="section" id="horario diego">
+                        <h1><span id="titulo-diego">Horario de Diego</span></h1>
+                        <table>
+                            <tr>
+                                <th>Hora \ Día</th>
+                                <th>Lun</th>
+                                <th>Mar</th>
+                                <th>Mie</th>
+                                <th>Jue</th>
+                                <th>Vie</th>
+                            </tr>
+                            <tr>
+                                <td>7 - 8 m</td>
+                                <td class="materiales" rowspan="2">Mecánica de Materiales</td>
+                                <td class="core" rowspan="2">Core 3</td>
+                                <td></td>
+                                <td class="materiales" rowspan="2">Mecánica de Materiales</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>8 - 9am</td>
+                                <!-- materiales -->
+                                <!-- core -->
+                                <td></td>
+                                <!-- materiales -->
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>9 - 10am</td>
+                                <td></td>
+                                <td class="diferenciales" rowspan="2">Ecuaciones Diferenciales</td>
+                                <td></td>             
+                                <td></td>
+                                <td class="diferenciales" rowspan="2">Ecuaciones Diferenciales</td>
+                            </tr>
+                            <tr>
+                                <td>10 - 11am</td>
+                                <td class="ingles" rowspan="2">Inglés 6</td>
+                                <!-- diferenciales -->
+                                <td></td>
+                                <td></td>
+                                <!-- diferenciales -->
+                            </tr>
+                            <tr>
+                                <td>11am - 12m</td>
+                                <!-- inglés -->
+                                <td></td>
+                                <td class="ingles" rowspan="2">Inglés 6</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>12m - 1pm</td>
+                                <td></td>
+                                <td></td>
+                                <!-- ingles -->
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>1 - 2pm</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>2 - 3pm</td>
+                                <td class="fluidos" rowspan="2">Mecánica de Fluidos</td>
+                                <td></td>
+                                <td></td>
+                                <td class="fluidos" rowspan="2">Mecánica de Fluidos</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>3 - 4pm</td>
+                                <!-- fluidos -->
+                                <td></td>
+                                <td></td>
+                                <!-- fluidos -->
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>4 - 5pm</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td class="marketing" rowspan="3">Neurociencias Aplicadas al Marketing</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>5 - 6pm</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <!-- marketing -->
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>6 - 7pm</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <!-- marketing -->
+                                <td></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <!-- Fin del horario de diego -->
+                
+                    <!-- Horario de stanli -->
+                    <div class="section" id="horario stanli">
+                        <h1><span id="titulo-stanli">Horario de Stanli</span></h1>
+                        <table>
+                            <tr>
+                                <th>Hora \ Día</th>
+                                <th>Lun</th>
+                                <th>Mar</th>
+                                <th>Mie</th>
+                                <th>Jue</th>
+                            </tr>
+                            <tr>
+                                <td>7 - 8 m</td>
+                                <td></td>
+                                <td></td>
+                                <td class="creacion" rowspan="2">Investigación y creación</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>8 - 9am</td>
+                                <td></td>
+                                <td></td>
+                                <!-- creacion -->
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>9 - 10am</td>
+                                <td class="teoria" rowspan="2">Teoría</td>
+                                <td class="gramatica" rowspan="2">Gramática</td>
+                                <td></td>             
+                                <td class="gramatica" rowspan="2">Gramática</td>
+                            </tr>
+                            <tr>
+                                <td>10 - 11am</td>
+                                <!-- teoria -->
+                                <!-- gramatica -->
+                                <td></td>
+                                <!-- gramatica -->
+                            </tr>
+                            <tr>
+                                <td>11am - 12m</td>
+                                <td class="teclado" rowspan="2">Teclado</td>
+                                <td class="guitarra">Guitarra</td>
+                                <td class="historia" rowspan="2">Historia de la Música</td>
+                                <td class="lenguaje" rowspan="2">Mundo y Lenguaje</td>
+                            </tr>
+                            <tr>
+                                <td>12m - 1pm</td>
+                                <!-- teclado -->
+                                <td></td>
+                                <!-- ingles -->
+                                <!-- lenguaje -->
+                            </tr>
+                            <tr>
+                                <td>1 - 2pm</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>2 - 3pm</td>
+                                <td></td>
+                                <td class="canciones" rowspan="2">Música y canciones</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>3 - 4pm</td>
+                                <td></td>
+                                <!-- canciones -->
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <!-- Fin del horario de stanli -->
+
+                    <!-- Horario de Santy -->
+                    <div class="section" id="horario santy">
+                        <h1><span id="titulo-santy">Horario de Santy</span></h1>
+                        <table>
+                            <tr>
+                                <th>Hora \ Día</th>
+                                <th>Lun</th>
+                                <th>Mar</th>
+                                <th>Mie</th>
+                                <th>Jue</th>
+                                <th>Vie</th>
+                            </tr>
+                            <tr>
+                                <td>8 - 9am</td>
+                                <td></td>
+                                <td></td>
+                                <td class="expresion" rowspan="2">Técnicas de Expresión</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>9 - 10am</td>
+                                <td></td>
+                                <td></td>
+                                <!-- expresion -->             
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>10 - 11am</td>
+                                <td></td>
+                                <td></td>
+                                <td class="fotograficas" rowspan="2">Técnicas Fotográficas</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>11am - 12m</td>
+                                <td></td>
+                                <td></td>
+                                <!-- fotograficas -->
+                                <td></td>
+                                <td class="emprendimiento" rowspan="2">Cultura del Emprendimiento</td>
+                            </tr>
+                            <tr>
+                                <td>12m - 1pm</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <!-- emprendimiento -->
+                            </tr>
+                            <tr>
+                                <td>1 - 2pm</td>
+                                <td></td>
+                                <td class="diseño" rowspan="4">Diseño Básico</td>
+                                <td></td>
+                                <td class="animacion" rowspan="4">Fundamentos de Animación</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>2 - 3pm</td>
+                                <td class="dibujo" rowspan="3">Dibujo Básico</td>
+                                <!-- diseño -->
+                                <td></td>
+                                <!-- animacion -->
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>3 - 4pm</td>
+                                <!-- dibujo -->
+                                <!-- diseño -->
+                                <td></td>
+                                <!-- animacion -->
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>4 - 5pm</td>
+                                <!-- dibujo -->
+                                <!-- diseño -->
+                                <td></td>
+                                <!-- animacion -->
+                                <td></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <!-- Fin del horario de santy -->
+
+
+                    <!-- Horario de matriz libre -->
+                    <div class="section" id="horario libre">
+                        <h1><span id="titulo-libre">Horario "Libre"</span></h1>
+                        <h3 style="font-weight: normal; padding-left: 50px;">Luego de una larga investigación, este es el resultado:</h3>
+                        <table>
+                            <tr>
+                                <th>Hora \ Día</th>
+                                <th>Lun</th>
+                                <th>Mar</th>
+                                <th>Mie</th>
+                                <th>Jue</th>
+                                <th>Vie</th>
+                            </tr>
+                            <tr>
+                                <td>1 - 2pm</td>
+                                <td class="No" rowspan="6">No xd</td>
+                                <td class="No" rowspan="6">No xd</td>
+                                <td class="No" rowspan="3">No xd</td>
+                                <td class="No" rowspan="6">No xd</td>
+                                <td class="Si">Si ✔</td>
+                            </tr>
+                            <tr>
+                                <td>2 - 3pm</td>
+                                <!-- No xd -->
+                                <!-- No xd -->
+                                <!-- No xd -->
+                                <!-- No xd -->
+                                <td class="No" rowspan="2">No xd</td>
+                            </tr>
+                            <tr>
+                                <td>3 - 4pm</td>
+                                <!-- No xd -->
+                                <!-- No xd -->
+                                <!-- No xd -->
+                                <!-- No xd -->
+                                <!-- No xd -->
+                            </tr>
+                            <tr>
+                                <td>4 - 5pm</td>
+                                <!-- No xd -->
+                                <!-- No xd -->
+                                <td class="Si" rowspan="3">Si ✔</td>
+                                <!-- No xd -->
+                                <td class="Si" rowspan="3">Si ✔</td>
+                            </tr>
+                            <tr>
+                                <td>5 - 6pm</td>
+                                <!-- No xd -->
+                                <!-- No xd -->
+                                <!-- Si xd -->
+                                <!-- No xd -->
+                                <!-- Si xd -->
+                            </tr>
+                                <tr>
+                                <td>6 - 7pm</td>
+                                <!-- No xd -->
+                                <!-- No xd -->
+                                <!-- Si xd -->
+                                <!-- No xd -->
+                                <!-- Si xd -->
+                            </tr>
+                        </table>
+                    </div>
+                    <!-- Fin del horario matriz libre -->
+                    
+
+
+                    <div class="section" id="notas">
+                        <h2>Notas:</h2>
+                        <ul>
+                            <li>Ayala tiene clase de 7am a 1pm de Lunes a Viernes, "pueden surgir cosas por la tarde"</li>
+                            <li>Santy no puede los fines de semana :v</li>
+                        </ul>
+                        <p><span>Vr. 1.2 | Kevin "Alejo315" Rodriguez</span></p>
+                    </div>
+
+                </div>
+
+                <!-- Bloque de los asociados del Kartel -->
+                <div class="bloque">
+                    <!-- Horario de Angie -->
+                    <div class="section" id="horario angie">
+                        <h1><span id="titulo-angie">Horario de Angie</span></h1>
+                        <table>
+                            <tr>
+                                <th>Hora \ Día</th>
+                                <th>Lun</th>
+                                <th>Mar</th>
+                                <th>Mie</th>
+                                <th>Jue</th>
+                                <th>Vie</th>
+                            </tr>
+                            <tr>
+                                <td>7am - 8am</td>
+                                <td></td>
+                                <td></td>
+                                <td class="historia-arte" rowspan="3">Historia del Arte</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>8am - 9am</td>
+                                <td class="estructural" rowspan="2">Dibujo Estructural</td>
+                                <td></td>
+                                <!-- historia del arte -->
+                                <td></td>
+                                <td class="teoria-ii" rowspan="2">Teoría del C. II</td>
+                            </tr>
+                            <tr>
+                                <td>9am - 10am</td>
+                                <!-- estructural -->
+                                <td></td>
+                                <!-- historia del arte -->
+                                <td></td>
+                                <!-- teoria-ii -->
+                            </tr>
+                            <tr>
+                                <td>10am - 11am</td>
+                                <td class="aguadas" rowspan="3">Técnicas Aguadas</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>11am - 12m</td>
+                                <!-- aguadas -->
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>12m - 1pm</td>
+                                <!-- aguadas -->
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <!-- Fin del horario de angie -->
+                </div>
+                <!-- Fin bloque asociados -->
+            </div>
+        </div> <br><br>    
     </body>
 </html>

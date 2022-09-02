@@ -40,6 +40,11 @@ h1 {
     padding: 10px;
     color: #005317;
 }
+#titulo-angie{
+    border: 3px dashed #53003b;
+    padding: 10px;
+    color: #53003b;
+}
 #notas{
     padding-left: 3%;
     padding-right: 3%;
@@ -227,6 +232,29 @@ table, th, td {
     font-weight: bold;
     color: white; 
 }
+
+/* Materias Angie*/
+.historia-arte{
+    background-color: #470093;
+    font-weight: bold;
+    color: white; 
+}
+.estructural{
+    background-color: #00375f;
+    font-weight: bold;
+    color: white; 
+}
+.teoria-ii{
+    background-color: #00471b;
+    font-weight: bold;
+    color: white; 
+}
+.aguadas{
+    background-color: #510000;
+    font-weight: bold;
+    color: white; 
+}
+
 .No{
     background-color: #930000;
     font-weight: bold;
@@ -256,7 +284,97 @@ h2{
     font-weight: bold;
 }
 p span{
-    font-size: small;
+    font-size: 15px;
     font-weight: bold;
     text-align: right;
 }
+
+/*Código para cambiar la barra deslizadora*/
+::-webkit-scrollbar{
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(to bottom, #004fec, #00d6fb);
+    border-radius: 25px;
+    border: 2px solid blue;
+}
+
+::-webkit-scrollbar-track{
+    background:midnightblue;
+}
+
+
+/* Una wea que no comprendo pero espero comprender*/
+
+.contenedor {
+    font-weight: bold;
+    max-width: 1280px;
+    padding: 2em;
+    margin: auto;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .contenedor .ul {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .contenedor .li {
+    padding: 1em;
+    margin: auto;
+    color: black;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    border-radius: 0.5em;
+    background-color: white;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    cursor: pointer;
+  }
+  
+  .contenedor .li.activo {
+    background-color: rgb(70, 0, 82);
+    color: white;
+  }
+  
+  .contenedor .subcontenedor {
+    min-height: 10vh;
+    position: relative;
+  }
+  
+  .contenedor .bloque {
+    margin: auto;
+    padding: 1em;
+    position: absolute;
+    color: black;
+    -webkit-transition: all 0.1s ease;
+    transition: all 0.1s ease;
+    border-radius: 0.5em;
+    background-color: #f6baff;
+    opacity: 0;
+    -webkit-transform: translateY(-130%);
+            transform: translateY(-130%);
+    -webkit-transition: all 1s ease;
+    transition: all 0.6s ease-in-out;
+  }
+  
+  .contenedor .bloque.activo {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
