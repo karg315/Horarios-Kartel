@@ -254,6 +254,11 @@ table, th, td {
     font-weight: bold;
     color: white; 
 }
+.modelado{
+    background-color: #4a5100;
+    font-weight: bold;
+    color: white; 
+}
 
 .No{
     background-color: #930000;
@@ -309,7 +314,6 @@ p span{
 /* Una wea que no comprendo pero espero comprender*/
 
 .contenedor {
-    font-weight: bold;
     max-width: 1280px;
     padding: 2em;
     margin: auto;
